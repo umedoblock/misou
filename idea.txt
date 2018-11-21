@@ -89,8 +89,8 @@
 
 = block chain
 == mining
-=== Justice of on Time.
-    JooT
+=== Justice of Punctual.
+    JoP
     時刻通りであることが正義。
 
     mining
@@ -102,12 +102,12 @@
     時間に遅れた場合は，単位に含めない。
     transaction を多くする方が有利。
 
-=== Proof of on Time.
-    PooT
+=== Proof of Punctual.
+    PoP
     時刻通りであることの証明。
 
 === which ?
-    JooT, PooT
+    JoP, PoP
     どっち？
 
     Justice ! には，
