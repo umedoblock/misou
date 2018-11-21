@@ -1,0 +1,110 @@
+= 概念
+= shuffle, まぜこぜ
+  mazekoze has four parts.
+== index list
+    0 -> 0x0a80...
+    1 -> 0x1a81...
+    2 -> 0x2a82...
+    3 -> 0x3a83...
+
+== game rule
+=== script type
+    rule book class ?
+    Python3 script ?
+
+    or
+
+    selfish script ? 独自実装する？
+    独自実装って大変だよ。
+    説明しないといけないし，覚えてもらわないといけない。
+    両者（開発者，理解者）の負担になる。
+    だったら，機能制限した Python3 script で良いと思う。
+    まあ，実装に入ってから詳細を考えよう。
+    始めの一つ二つは，Python3 script で実装しよう。
+
+    参加者にn枚配る。
+    deck に残りを残す。
+    ・・・
+
+=== programmer
+    これは誰もが自由に開発できる。
+    開発者を求める部分。
+    programming 用に開発しないといけない。
+    大変そう。重そう。
+
+    地域（国，都道府県）の大きな単位毎に個々のgameが存在すると思う。
+    また，そのgameの細かいruleは，地域の細かい単位によって異なると思われる。
+
+    こち亀で，大富豪のルールを募集している回があったと思う。
+    募集結果を発表する回で，両さんがもう良い。と許しを乞うていた。
+    とてもたくさんの細かい違いがあったのだと思う。
+    細々した部分を私が全て開発するなど不可能なので，細々した部分のruleを
+    主張している人に好きなように開発してもらった方が絶対に良い。
+
+== verify proceed game
+    card の並び検証
+    機能開発として，重そう。大変そう。
+
+= Node
+
+== judge, result
+    結果, 判定
+    block chain から引っ張ってきた game result を
+    node 各々が好きなように判断する。
+
+    RuleBook とは切り離せるようにしたいな。
+
+    ただし，どの script を使ったのか公開するべし。
+    期間だったり，対局者の再帰的判断だったり。
+
+== make timestamp
+    この timestamp でもって，block chain に連ねるための
+    block に加えるか否か判断する。
+    対局終了後の検証完了時刻の一番最後
+
+    対局完了の時間から5(=10/2)分以内が望ましい。
+    他の参加者は5分以内に受け取ったとみなして良い。
+
+= DHT, 馬跳び
+
+= block chain
+== mining
+=== Justice of on Time.
+    JooT
+    時刻通りであることが正義。
+
+    mining
+
+    block 作成の時間単位は10分毎。
+    timestamp で10分毎に区切る。
+    積極的に提出するのは有利になる参加者。
+    次の単位に含ませることはない。
+    時間に遅れた場合は，単位に含めない。
+    transaction を多くする方が有利。
+
+=== Proof of on Time.
+    PooT
+    時刻通りであることの証明。
+
+=== which ?
+    JooT, PooT
+    どっち？
+
+    Justice ! には，
+    遊び的な意味を含ませたい。
+    ネタ的な意味を含ませたい。
+    と思う。
+    Proof って真面目な感じがする。
+
+    味噌荘自体が遊びの場だし。
+    Justice !
+    って言いたいよね。
+
+    Justice of me.
+    我が正義なり。
+
+    って言いたいよね。
+
+=== two chains
+    main chain.
+    sub chain.
