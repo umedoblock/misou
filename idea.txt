@@ -8,6 +8,10 @@
     3 -> 0x3a83...
 
 == game rule
+=== games
+    ポーカー，七並べ，大富豪，麻雀，チンチロ，半丁，17歩（カイジの），，，
+    簡単そうなのから簡単に実装しよう。
+
 === script type
     rule book class ?
     Python3 script ?
@@ -25,6 +29,10 @@
     参加者にn枚配る。
     deck に残りを残す。
     ・・・
+
+    bitcoin での，
+    OP_xxx, smart construct
+    とかそんな感じ？
 
 === programmer
     これは誰もが自由に開発できる。
