@@ -91,7 +91,7 @@
 == mining
 === Justice of Punctual.
     JoP
-    時刻通りであることが正義。
+    時間を固く守る事が正義。
 
     mining
 
@@ -104,7 +104,7 @@
 
 === Proof of Punctual.
     PoP
-    時刻通りであることの証明。
+    時間を固く守る事の証明。
 
 === which ?
     JoP, PoP
