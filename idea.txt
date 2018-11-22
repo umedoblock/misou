@@ -171,6 +171,46 @@ n = 1000002 1000.0009999995
 
     って言いたいよね。
 
-=== two chains
+=== some chains
     main chain.
+        punctual chain ?
     sub chain.
+        free chain ?
+    timestamp chain.
+        timestamp は，main chain が兼ねる。
+        としても目的は満たす。
+        しかし，時間単位が長い。10分単位で main chain は
+        伸びていく。
+        timestamp chain としては，理想は1秒毎，現実的な解として，
+        1分毎にchainが伸びていって欲しい。
+        rename main chain to punctual chain ?
+
+        一つの block chain 系で一つのみのchainって事はない。
+        複数の chain を用意して，chainを 相互に関連させて目的の system
+        を作り上げれば良い。
+
+        所々 chain を変えて，一つの block chain としたって良い。
+        chain 技術は，私の定義では，
+
+        一単位に区切った電子情報を，
+        参加者の合意に基づいて，
+        一方向に連ねる技術
+
+        何だから。
+        chain を変更しても，
+        一方向に連ねていれば，それで良い。
+    honor chain
+        main or punctual chain を伸ばしていった人の名前を書き込む chain
+        参加者から慕われる。
+        block の中に honor を含ませておく，bitocin 方式の方が良いかも？
+        実験的に試してみたい。
+        どちらがより良い結果を生むのか。
+        場面，文脈によって一長一短ではないだろうか？
+    signer chain
+        chain とは別方向に，signer を genesis block から伸ばしていこう。
+        signer は管理者として，伸びていったchainの内容を変更できる。
+        各 node は，signer を empty として，
+        管理する者を何人も認めない。
+        としたって良い。
+    shiba dog chain !
+        many shiba dog photos
