@@ -1,2 +1,26 @@
+# self files
 private.txt
 slide.txt
+
+# binary objects
+*.o
+*.a
+*.so.*
+*.so
+core
+
+# python
+*.orig
+*.pyc
+*.pyd
+*.pyo
+
+# etc
+*.swp
+*~
+tags
+TAGS
+.gdb_history
+*.rej
+
+build/
