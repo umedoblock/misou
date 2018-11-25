@@ -1,4 +1,10 @@
+# misou
+味噌荘 is misou. misou gives you some porker protocol games
+using mazekoze(=dh-shuffle) technique.
+
 インターネット雀荘　味噌荘へようこそっ！
+Welcome to misou of internet gambling room !.
+# after I translate Japanese to English...
 
 味噌荘では，まぜこぜを使って，ポーカープロトコルを実現しました。
 ポーカープロトコルは，暗号数学の一分野です。
