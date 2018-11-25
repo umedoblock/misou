@@ -1,3 +1,19 @@
+= 優先順位
+== mazekoze
+    まぜこぜを実装して，porker を実現するのが一番。
+    porker を適当に遊べるようになったら，
+== umatobi
+    umatobi の具体化に取り掛かる。
+== JoP
+    最後に
+    Justice of Punctual.
+== mazekoze
+    mazekoze に戻って，game 開発の抽象化。
+    porker 以外にも game を作って，
+    似た機能を抽出して，抽象化。
+
+    ゲーム進行の監視，検証。
+
 = 概念
 = shuffle, まぜこぜ
   mazekoze has four parts.
